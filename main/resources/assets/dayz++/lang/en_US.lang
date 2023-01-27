@@ -1,0 +1,93 @@
+#DayZ Language File
+item.drinkCanBeer-empty.name=Empty Beer
+item.drinkCanLemonSoda-empty.name=Empty Lemon Soda
+item.drinkCanCola-empty.name=Empty Cola
+item.drinkCanEnergyDrink-empty.name=Empty Energy Drink
+item.drinkCanOrangeSoda-empty.name=Empty Orange Soda
+item.drinkAnanas-empty.name=Ananas Soda Empty
+
+item.drinkCanBeer.name=Beer
+item.drinkCanLemonSoda.name=Lemon Soda
+item.drinkCanCola.name=Cola
+item.drinkCanEnergyDrink.name=Energy Drink
+item.drinkCanOrangeSoda.name=Orange Soda
+item.drinkAnanas.name=Ananas Soda
+
+item.cannedBeans-empty.name=Empty Canned Beans
+item.cannedSoup-empty.name=Empty Canned Soup
+item.cannedPasta-empty.name=Empty Canned Pasta
+item.cannedFruit-empty.name=Empty Canned Fruit
+
+item.cannedBeans.name=Canned Beans
+item.cannedSoup.name=Canned Soup
+item.cannedPasta.name=Canned Pasta
+item.cannedFruit.name=Canned Fruit
+
+item.painkillers.name=Painkillers
+
+item.chocolatebar.name=Chocolate
+item.sardines.name=Sardines
+
+item.gunMakarov.name=Makarov
+item.gunUzi.name=Uzi
+item.gunShotgun.name=Shotgun
+item.gunCustom.name=Crafted Pistol
+item.gunAkm.name=AKM
+item.gunMosin.name=Mosin
+item.gunRevolver.name=Revolver
+
+item.ammoMakarov.name=Makarov Ammo
+item.ammoUzi.name=Uzi Ammo
+item.ammoShotgun.name=Shotgun Ammo
+item.ammoCustom.name=Crafted Ammo
+item.ammoAkm.name=Akm Ammo
+item.ammoMosin.name=Mosin Ammo
+item.ammoRevolver.name=Revolver Ammo
+
+item.itemMatches.name=Book of Matches
+item.healBandage.name=Bandage
+item.healBandage.description=Stops bleeding
+item.healAntibiotics.name=Antibiotics
+item.healAntibiotics.description=Stops Infection
+item.healBloodbag.name=BloodBag
+item.healBloodbag.description=Cannot be self-applied
+item.camoHelmet.name=Camouflage Helmet
+item.camoChest.name=Camouflage Shirt
+item.camoLegs.name=Camouflage Pants
+item.camoBoots.name=Camouflage Boots
+
+item.drinkWhiskeyBottle.name=Bottle of Whiskey
+item.drinkCiderBottle.name=Bottle of Cider
+item.drinkVodkaBottle.name=Bottle of Vodka
+item.drinkWhiskeyBottle-empty.name=Bottle of Whiskey Empty
+item.drinkCiderBottle-empty.name=Bottle of Cider Empty
+item.drinkVodkaBottle-empty.name=Bottle of Vodka Empty
+
+item.meleeBaseballBat.name=Baseball Bat
+item.meleeBaseballBatNailed.name=Nailed Baseball Bat
+item.meleePlank.name=Plank
+item.meleePlankNailed.name=Nailed Plank
+item.meleePipe.name=Steel Pipe
+item.meleeCrowbar.name=Crowbar
+item.meleeMachete.name=Machete
+
+tile.barbedWire.name=Barbed Wire
+tile.chestLoot.name=Loot Chest
+tile.chainFence.name=Chain-link Fence
+tile.sandbagBlock.name=Sandbags
+tile.nailBlock.name=Nails
+tile.concrete.name=Concrete
+
+thirst.replentish=Ahh, much better...
+thirst.thirdwarning=I should find some water soon...
+thirst.secondwarning=I feel quite thirsty now...
+thirst.firstwarning=My mouth feels a little dry...
+
+entity.Crawler.name=Crawler
+entity.DayZZombie.name=Zombie
+generator.DAYZBASE=Day Z Original
+generator.DAYZSNOW=Day Z Snow
+itemGroup.creativeTabDayZ=DayZ++
+death.attack.bleedOut=%1$s lost too much blood
+death.attack.zombieInfection=%1$s became a zombie
+death.attack.dehydration=%1$s died of dehydration

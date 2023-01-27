@@ -1,0 +1,44 @@
+{
+  "gun.makarov": {
+    "category": "neutral",
+    "sounds": [
+      "gun/makarov"
+    ]
+  },
+  "gun.uzi": {
+    "category": "neutral",
+    "sounds": [
+      "gun/uzi"
+    ]
+  },
+  "gun.mosin": {
+    "category": "neutral",
+    "sounds": [
+      "gun/mosin"
+    ]
+  },
+  "gun.akm": {
+    "category": "neutral",
+    "sounds": [
+      "gun/akm"
+    ]
+  },
+  "gun.custom": {
+    "category": "neutral",
+    "sounds": [
+      "gun/custom"
+    ]
+  },
+  "gun.shotgun": {
+    "category": "neutral",
+    "sounds": [
+      "gun/shotgun"
+    ]
+  },
+  "gun.reload": {
+    "category": "neutral",
+    "sounds": [
+      "gun/reload"
+    ]
+  }
+}
