@@ -1,5 +1,6 @@
 package com.github.dayzminecraft.dayzminecraft.common;
 
+import com.github.dayzminecraft.dayzminecraft.BouH_.entity.EntityGrenade;
 import com.github.dayzminecraft.dayzminecraft.BouH_.events.server.Events;
 import com.github.dayzminecraft.dayzminecraft.BouH_.guns.bullet.EntityBuckshot;
 import com.github.dayzminecraft.dayzminecraft.BouH_.guns.bullet.EntityBullet;
@@ -8,6 +9,7 @@ import com.github.dayzminecraft.dayzminecraft.BouH_.network.NetworkHandler;
 import com.github.dayzminecraft.dayzminecraft.DayZ;
 import com.github.dayzminecraft.dayzminecraft.common.blocks.ModBlocks;
 import com.github.dayzminecraft.dayzminecraft.common.effects.Effect;
+import com.github.dayzminecraft.dayzminecraft.common.entities.EntityBandit;
 import com.github.dayzminecraft.dayzminecraft.common.entities.EntityCrawler;
 import com.github.dayzminecraft.dayzminecraft.common.entities.EntityZombieDayZ;
 import com.github.dayzminecraft.dayzminecraft.common.items.ModItems;
@@ -73,9 +75,14 @@ public class CommonProxy {
 
         EntityRegistry.registerGlobalEntityID(EntityZombieDayZ.class, "Walker", EntityRegistry.findGlobalUniqueEntityId(), 1, 2);
         EntityRegistry.registerGlobalEntityID(EntityCrawler.class, "Crawler", EntityRegistry.findGlobalUniqueEntityId(), 1, 2);
+        EntityRegistry.registerGlobalEntityID(EntityBandit.class, "Bandit", EntityRegistry.findGlobalUniqueEntityId(), 1, 2);
 
         EntityRegistry.registerModEntity(EntityBullet.class, "Bullet", 1, DayZ.INSTANCE, 250, 5, true);
-        EntityRegistry.registerModEntity(EntityBuckshot.class, "BuckShot", 1, DayZ.INSTANCE, 250, 5, true);
+        EntityRegistry.registerModEntity(EntityBuckshot.class, "BuckShot", 2, DayZ.INSTANCE, 250, 5, true);
+        EntityRegistry.registerModEntity(EntityGrenade.class, "Grenade", 3, DayZ.INSTANCE, 250, 5, true);
+
+
+        EntityRegistry.addSpawn(EntityBandit.class, 50, 1, 2, EnumCreatureType.creature, allBiomes);
 
         EntityRegistry.addSpawn(EntityZombieDayZ.class, 200, 1, 4, EnumCreatureType.creature, allBiomes);
         EntityRegistry.addSpawn(EntityCrawler.class, 100, 1, 4, EnumCreatureType.creature, allBiomes);

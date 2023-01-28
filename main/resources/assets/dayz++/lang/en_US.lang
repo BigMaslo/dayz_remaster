@@ -70,6 +70,7 @@ item.meleePlankNailed.name=Nailed Plank
 item.meleePipe.name=Steel Pipe
 item.meleeCrowbar.name=Crowbar
 item.meleeMachete.name=Machete
+item.grenade.name=Grenade
 
 tile.barbedWire.name=Barbed Wire
 tile.chestLoot.name=Loot Chest
@@ -84,7 +85,8 @@ thirst.secondwarning=I feel quite thirsty now...
 thirst.firstwarning=My mouth feels a little dry...
 
 entity.Crawler.name=Crawler
-entity.DayZZombie.name=Zombie
+entity.Walker.name=Zombie
+entity.Bandit.name=Bandit
 generator.DAYZBASE=Day Z Original
 generator.DAYZSNOW=Day Z Snow
 itemGroup.creativeTabDayZ=DayZ++

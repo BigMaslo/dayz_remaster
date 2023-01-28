@@ -1,0 +1,90 @@
+#DayZ Language File
+item.drinkCanBeer-empty.name=Пустое пиво
+item.drinkCanLemonSoda-empty.name=Пустой лимонад
+item.drinkCanCola-empty.name=Пустая кола
+item.drinkCanEnergyDrink-empty.name=Пустой энергетик
+item.drinkCanOrangeSoda-empty.name=Пустой апельсиновый сок
+item.drinkAnanas-empty.name=Пустой ананасовый сок
+
+item.drinkCanBeer.name=Пивко
+item.drinkCanLemonSoda.name=Лимонад
+item.drinkCanCola.name=Кола
+item.drinkCanEnergyDrink.name=Энергетик
+item.drinkCanOrangeSoda.name=Апельсиновый сок
+item.drinkAnanas.name=Ананасовый сок
+
+item.cannedBeans-empty.name=Пустая банка бобов
+item.cannedSoup-empty.name=Пустая банка супа
+item.cannedPasta-empty.name=Пустая банка пасты
+item.cannedFruit-empty.name=Пустая банка фруктов
+
+item.cannedBeans.name=Банка бобов
+item.cannedSoup.name=Банка супа
+item.cannedPasta.name=Банка пасты
+item.cannedFruit.name=Банка фруктов
+
+item.painkillers.name=Обезболивающее
+
+item.chocolatebar.name=Шоколад
+item.sardines.name=Сардины
+
+item.gunMakarov.name=Макаров
+item.gunUzi.name=Узи
+item.gunShotgun.name=Дробаш
+item.gunCustom.name=Самопал
+item.gunAkm.name=AKM
+item.gunMosin.name=Винтовка мосина
+item.gunRevolver.name=Револьвер
+
+item.ammoMakarov.name=Патроны для макарова
+item.ammoUzi.name=Патроны для узи
+item.ammoShotgun.name=Патроны для дробаша
+item.ammoCustom.name=Патрон для самопала
+item.ammoAkm.name=Патроны для АКМ
+item.ammoMosin.name=Патроны для винтовки мосина
+item.ammoRevolver.name=Патроны для револьвера
+
+item.itemMatches.name=Спички
+item.healBandage.name=Бинт
+item.healBandage.description=Лечит кровотечение
+item.healAntibiotics.name=Антибиотики
+item.healAntibiotics.description=Лечат инфекцию
+item.healBloodbag.name=Кровь
+item.healBloodbag.description=Нельзя применить на себе
+item.camoHelmet.name=Камуфляж
+item.camoChest.name=Камуфляж
+item.camoLegs.name=Камуфляж
+item.camoBoots.name=Камуфляж
+
+item.drinkWhiskeyBottle.name=Вискарь
+item.drinkCiderBottle.name=Сидр
+item.drinkVodkaBottle.name=Водяра
+item.drinkWhiskeyBottle-empty.name=Пустой вискарь
+item.drinkCiderBottle-empty.name=Пустой сидр
+item.drinkVodkaBottle-empty.name=Пустая водка
+
+item.meleeBaseballBat.name=Бита
+item.meleeBaseballBatNailed.name=Бита с гвозьдями
+item.meleePlank.name=Доска
+item.meleePlankNailed.name=Доска с гвозьдями
+item.meleePipe.name=Труба
+item.meleeCrowbar.name=Лом
+item.meleeMachete.name=Мачете
+item.grenade.name=Граната
+
+tile.barbedWire.name=Колючая проволока
+tile.chestLoot.name=Лут-ящик
+tile.chainFence.name=Сетка
+tile.sandbagBlock.name=Мешки с песком
+tile.nailBlock.name=Гвозди
+tile.concrete.name=Бетон
+
+entity.Crawler.name=Ползун
+entity.Walker.name=Зомбак
+entity.Bandit.name=Гопник
+generator.DAYZBASE=Day Z Original
+generator.DAYZSNOW=Day Z Snow
+itemGroup.creativeTabDayZ=DayZ++
+death.attack.bleedOut=%1$s здох от потери крови
+death.attack.zombieInfection=%1$s стал зомби
+death.attack.dehydration=%1$s не выпил воды и помер

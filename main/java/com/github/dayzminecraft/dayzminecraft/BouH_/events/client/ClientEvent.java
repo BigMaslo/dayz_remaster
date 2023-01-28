@@ -94,7 +94,7 @@ public class ClientEvent {
         }
         if (ev.type == RenderGameOverlayEvent.ElementType.CROSSHAIRS) {
             ev.setCanceled(true);
-            mc.fontRenderer.drawStringWithShadow("DayZ++ Alpha 0.3", 12, 12, 0xffffff);
+            mc.fontRenderer.drawStringWithShadow("DayZ++ Alpha 0.4", 12, 12, 0xffffff);
             if (player.getHeldItem() != null) {
                 if (player.getHeldItem().hasTagCompound() && player.getHeldItem().getItem() instanceof GunBase) {
                     GunBase aGunBase = (GunBase) player.getHeldItem().getItem();

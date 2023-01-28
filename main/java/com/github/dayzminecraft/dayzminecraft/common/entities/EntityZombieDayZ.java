@@ -27,6 +27,7 @@ public class EntityZombieDayZ extends EntityMob {
         tasks.addTask(2, new EntityAIAttackOnCollide(this, EntityPlayer.class, moveSpeed, false));
         tasks.addTask(3, new EntityAIAttackOnCollide(this, EntityZombieDayZ.class, moveSpeed, true));
         tasks.addTask(4, new EntityAIAttackOnCollide(this, EntityVillager.class, moveSpeed, true));
+        tasks.addTask(4, new EntityAIAttackOnCollide(this, EntityBandit.class, moveSpeed, true));
         tasks.addTask(5, new EntityAIMoveThroughVillage(this, moveSpeed, false));
         tasks.addTask(6, new EntityAIWander(this, 0.3F));
         tasks.addTask(7, new EntityAIWatchClosest(this, EntityPlayer.class, 8F));
@@ -36,6 +37,7 @@ public class EntityZombieDayZ extends EntityMob {
         targetTasks.addTask(11, new EntityAINearestAttackableTarget(this, EntityPlayerMP.class, 0, true));
         targetTasks.addTask(12, new EntityAINearestAttackableTarget(this, EntityPlayer.class, 0, true));
         targetTasks.addTask(13, new EntityAINearestAttackableTarget(this, EntityVillager.class, 0, false));
+        targetTasks.addTask(13, new EntityAINearestAttackableTarget(this, EntityBandit.class, 0, false));
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(4);
     }
 

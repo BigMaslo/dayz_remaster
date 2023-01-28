@@ -5,6 +5,7 @@ import com.github.dayzminecraft.dayzminecraft.BouH_.guns.items.ItemCommonGun;
 import com.github.dayzminecraft.dayzminecraft.BouH_.guns.items.ItemShotgun;
 import com.github.dayzminecraft.dayzminecraft.BouH_.items.ItemCamo;
 import com.github.dayzminecraft.dayzminecraft.BouH_.items.ItemCommon;
+import com.github.dayzminecraft.dayzminecraft.BouH_.items.ItemGrenade;
 import com.github.dayzminecraft.dayzminecraft.BouH_.items.ItemPainkiller;
 import com.github.dayzminecraft.dayzminecraft.DayZ;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -40,8 +41,10 @@ public class ItemsDayZ {
     public static Item camoLegs;
     public static Item camoHelmet;
 
-
+    public static Item grenade;
     public static void init() {
+        grenade = new ItemGrenade("grenade");
+
         chocolatebar = new net.minecraft.item.ItemFood(4, 1.0f, false);
         chocolatebar.setUnlocalizedName("chocolatebar");
         chocolatebar.setCreativeTab(DayZ.creativeTab);
@@ -110,6 +113,8 @@ public class ItemsDayZ {
         registerItem(ammoShotgun);
         registerItem(gunMosin);
         registerItem(ammoMosin);
+        registerItem(grenade);
+
         registerItem(camoHelmet);
         registerItem(camoChest);
         registerItem(camoLegs);

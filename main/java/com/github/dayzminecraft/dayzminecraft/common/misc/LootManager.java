@@ -62,8 +62,8 @@ public class LootManager {
     }
 
     public static void registerAllItems() {
-        addLoot(new ItemStack(Items.rotten_flesh), 150);
-        addLoot(new ItemStack(Blocks.deadbush), 150);
+        addLoot(new ItemStack(Items.rotten_flesh), 160);
+        addLoot(new ItemStack(Blocks.deadbush), 160);
         addLoot(new ItemStack(ModBlocks.barbedWire), 3);
         addLoot(new ItemStack(Items.bow), 5);
         addLoot(new ItemStack(ModItems.meleeBaseballBatNailed), 12);
@@ -108,6 +108,7 @@ public class LootManager {
         addLoot(new ItemStack(ModItems.cannedPasta), 1);
         addLoot(new ItemStack(ItemsDayZ.chocolatebar), 1);
         addLoot(new ItemStack(ItemsDayZ.sardines), 1);
+        addLoot(new ItemStack(ItemsDayZ.grenade), 1);
         addLoot(new ItemStack(ModItems.cannedFruit), 1);
         addLoot(new ItemStack(ModItems.drinkCanBeer), 1);
         addLoot(new ItemStack(ModItems.drinkCanLemonSoda), 1);

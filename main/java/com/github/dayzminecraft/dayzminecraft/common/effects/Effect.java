@@ -1,7 +1,12 @@
 package com.github.dayzminecraft.dayzminecraft.common.effects;
 
+import com.github.dayzminecraft.dayzminecraft.DayZ;
 import cpw.mods.fml.common.registry.LanguageRegistry;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
 import net.minecraft.potion.Potion;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.config.Configuration;
 
 public class Effect extends Potion {
@@ -9,6 +14,7 @@ public class Effect extends Potion {
     public static int bleedingId;
     public static Effect zombification;
     public static int zombificationId;
+    public static final ResourceLocation effectIcons = new ResourceLocation(DayZ.meta.modId + ":textures/gui/inventory.png");
 
     public Effect(int id, boolean isBadEffect, int color, String name) {
         super(id, isBadEffect, color);
@@ -27,8 +33,15 @@ public class Effect extends Potion {
     }
 
     public static void register() {
-        Potion.potionTypes[bleeding.getId()] = bleeding;
-        Potion.potionTypes[zombification.getId()] = zombification;
+        Potion.potionTypes[bleeding.getId()] = bleeding.setIconIndex(1, 0);
+        Potion.potionTypes[zombification.getId()] = zombification.setIconIndex(2, 0);
+    }
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public int getStatusIconIndex() {
+        Minecraft.getMinecraft().renderEngine.bindTexture(effectIcons);
+        return super.getStatusIconIndex();
     }
 
     @Override

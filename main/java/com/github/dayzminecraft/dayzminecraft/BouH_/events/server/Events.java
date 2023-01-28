@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Events {
-    private Random random = new Random();
+    private final Random random = new Random();
 
     @SubscribeEvent()
     public void onUpdate(LivingEvent.LivingUpdateEvent ev) {
